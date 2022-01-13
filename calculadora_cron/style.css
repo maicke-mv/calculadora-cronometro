@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.fundo {
+    background-image: linear-gradient(45deg, rgb(36, 31, 31), rgb(170, 0, 0));
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.calculadora {
+   background-color: rgba(0, 0, 0, 0.801);
+   border-radius: 10px;
+   padding: 15px;
+}
+
+#resultado {
+    background-color: white;
+    color: black;
+    text-align: right;
+    font-size: 1.5em;
+    padding: 3px;
+    height: 30px;
+    width: 200px;
+    margin: 8px;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    font-size: 1.5em;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    margin: 2px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+#igual {
+    height: 106px;
+}
+
+#zero {
+    width: 106px;
+}
+
+div.cron {
+    background-color: rgba(0, 0, 0, 0.801);
+    border-radius: 10px;
+    height: 365px;
+    width: 230px;
+    padding: 15px;
+}
+
+.item > button {
+    display: block;
+    height: 50px;
+    width: 150px;
+    padding: 10px;
+    margin: 30px auto 0px auto;
+    border-radius: 15px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button.ini:hover {
+    background-color: green;
+}
+
+button.pausar:hover {
+    background-color: red;
+}
+
+button.zerar:hover {
+    background-color: yellow;
+}
+
+
+h2#num {
+    text-align: center;
+    font-size: 2em;
+    width: 200px;
+    margin: 8px auto 0px auto;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+@media (max-width: 543px) {
+    .fundo {
+        height: 100%;
+    }
+
+    .cron {
+        margin-top: 20px;
+    }
+}
